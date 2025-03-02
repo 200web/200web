@@ -161,40 +161,40 @@ export const feature10 = {
 };
 
 export const feature20 = {
-  heading: 'Comprehensive UI Kit Tailored to your Need',
-  caption: 'Ready to transform your SaaS designs with one powerful UI Kit?',
-  actionBtn: { children: 'Buy Now', href: BUY_NOW_URL, ...linkProps },
-  secondaryBtn: { children: 'Explore Blocks', href: SECTION_PATH },
+  heading: 'Smart Web Solutions for Business Growth',
+  caption: 'Ready to launch a website that drives results?',
+  actionBtn: { children: 'Connect', href: BUY_NOW_URL, ...linkProps },
+  secondaryBtn: { children: 'Fill out a brief', href: SECTION_PATH },
   features: [
     {
       icon: 'tabler-accessible',
-      title: 'WCAG Compliant',
-      content: 'Ensure accessibility with WCAG compliant design for browsing.'
+      title: 'Strategy',
+      content: 'A well-structured, conversion-driven layout that optimizes the user journey.'
     },
     {
       icon: 'tabler-brand-google',
       title: 'SEO Friendly',
-      content: 'Boost visibility with SEO-friendly features for better search rankings.'
+      content: 'Built with best SEO practices to enhance search visibility and rankings.'
     },
     {
       icon: 'tabler-stack-2',
-      title: 'MUI Components',
-      content: 'Customize Material 3 design MUI components for enhanced aesthetics.'
+      title: 'Development',
+      content: 'Clean, scalable code ensures fast loading and seamless adaptability.'
     },
     {
       icon: 'tabler-rocket',
-      title: 'High Performance UI',
-      content: 'Adjust content layout for visual coherence on various screen sizes.'
+      title: 'UI/UX Design',
+      content: 'Unique, brand-aligned interfaces for an immersive user experience.'
     },
     {
       icon: 'tabler-help',
-      title: 'Detailed Documentation',
-      content: 'Access comprehensive documentation for easy guidance on platform usage.'
+      title: 'Scalable Architecture',
+      content: 'Future-proof solutions designed for flexibility and growth.'
     },
     {
       icon: 'tabler-refresh',
-      title: 'Regular Updates',
-      content: 'Receive consistent updates to keep the platform secure and up-to-date with the latest features.'
+      title: 'Security & Stability',
+      content: 'Regular updates keep the website secure and high-performing.'
     }
   ]
 };
@@ -228,7 +228,7 @@ export const feature21 = {
     {
       animationDelay: 0.4,
       icon: 'tabler-accessible',
-      title: 'WCAG Compliant'
+      title: 'Strategy'
     },
     {
       animationDelay: 0.1,
@@ -351,65 +351,110 @@ export const feature23 = {
 };
 
 export const feature18 = {
-  heading: 'Powerful Admin Interface',
-  caption: 'Manage data, users, and workflows effortlessly with intuitive, customizable admin controls and features.',
+  heading: 'Services',
+  caption: 'Building landing pages, e-commerce stores, and corporate sites  for businesses of any size',
   topics: [
     {
       icon: 'tabler-sparkles',
-      title: 'Material UI Powered',
-      title2: 'Leverage Power of Material UI Components',
-      description: 'The power and flexibility of Material UI components in admin template',
+      title: 'Landing Page',
+      title2: 'Present Your Business Clearly and Drive Results',
+      description: 'The optimal way to explaintothe user what you offer and encourage themtotake the desired action.',
       image: '/assets/images/graphics/default/admin-dashboard.png',
       list: [
-        { primary: 'Nextjs JavaScript/TypeScript' },
-        { primary: 'Customizable Themes' },
-        { primary: 'Rich Form and Table Components' },
-        { primary: 'Responsive Grid System' }
+        { primary: 'Contact form setup' },
+        { primary: 'Google Analytics integration' },
+        { primary: 'Mobile-responsive design' },
+        { primary: 'Video embedding support' }
       ],
-      actionBtn: { children: 'View Dashboard', href: ADMIN_PATH, ...linkProps },
+      actionBtn: { children: 'View Cases', href: ADMIN_PATH, ...linkProps },
       actionBtn2: { children: 'Docs', href: DOCS_URL, ...linkProps }
     },
     {
       icon: 'tabler-palette',
-      title: 'Customizable Themes',
-      title2: 'Flexible Theming Options',
-      description: 'Tailor themes effortlessly with MUI v6 robust theming system.',
+      title: 'Catalog Site',
+      title2: 'Showcase Your Products and Boost Sales',
+      description: 'Present your product range in a visually appealing way to capture customer attention and increase sales.',
       image: '/assets/images/graphics/default/admin-dashboard-2.png',
       list: [
-        { primary: 'Easy options for Theming' },
-        { primary: 'Layout Options' },
-        { primary: 'Color Presets tailored to your Web Apps' },
-        { primary: 'Consistency in Design' }
+        { primary: 'Product filters (category, price)' },
+        { primary: 'Detailed product pages' },
+        { primary: 'Reviews and ratings' },
+        { primary: 'Analytics for popular products' }
       ],
       actionBtn: { children: 'View Dashboard', href: ADMIN_PATH, ...linkProps },
       actionBtn2: { children: 'Docs', href: DOCS_URL, ...linkProps }
     },
     {
       icon: 'tabler-rocket',
-      title: 'Faster Development',
-      title2: 'Rapid Development',
-      description: 'Launch projects quicker with pre-built layouts and components.',
+      title: 'Business Site',
+      title2: 'Make a Strong Impression from the First Page',
+      description: 'Create a sleek, professional one-page website that highlights your business in the best light.',
       image: '/assets/images/graphics/default/admin-dashboard-3.png',
       list: [
-        { primary: 'Time Saving' },
-        { primary: 'Tested and Reliable' },
-        { primary: 'Customization Ready' },
-        { primary: 'Enhanced User Experience' }
+        { primary: 'Easy contact info setup' },
+        { primary: 'Minimalist design' },
+        { primary: 'Portfolio display option' },
+        { primary: 'Contact form integration' }
       ],
       actionBtn: { children: 'View Dashboard', href: ADMIN_PATH, ...linkProps },
       actionBtn2: { children: 'Docs', href: DOCS_URL, ...linkProps }
     },
     {
       icon: 'tabler-scale',
-      title: 'Scalability',
-      title2: 'Build to Scale',
-      description: 'Easily scale your app with flexible, modular, and extensible templates.',
+      title: 'E-Commerce Site',
+      title2: 'Turn Browsers into Buyers with Seamless Shopping',
+      description: 'Build a fast, secure online store that offers an easy and enjoyable shopping experience.',
       image: '/assets/images/graphics/default/admin-dashboard.png',
       list: [
-        { primary: 'Modular Architecture' },
-        { primary: 'Performance Optimized' },
-        { primary: 'Extensible Codebase' },
-        { primary: 'Future Proof Design' }
+        { primary: 'Multiple payment options' },
+        { primary: 'Discount and promo codes' },
+        { primary: 'Quick checkout process' },
+        { primary: 'Mobile-optimized design' }
+      ],
+      actionBtn: { children: 'View Dashboard', href: ADMIN_PATH, ...linkProps },
+      actionBtn2: { children: 'Docs', href: DOCS_URL, ...linkProps }
+    },
+    {
+      icon: 'tabler-briefcase',
+      title: 'Corporate Site',
+      title2: 'Create a Strong Image for Your Business',
+      description: 'Showcase your company’s values, services, and expertise to foster trust and growth.',
+      image: '/assets/images/graphics/default/admin-dashboard.png',
+      list: [
+        { primary: 'Company "About Us" page' },
+        { primary: 'Service and team sections' },
+        { primary: 'News/blog integration' },
+        { primary: 'Inquiry forms' }
+      ],
+      actionBtn: { children: 'View Dashboard', href: ADMIN_PATH, ...linkProps },
+      actionBtn2: { children: 'Docs', href: DOCS_URL, ...linkProps }
+    },
+    {
+      icon: 'tabler-settings-check',
+      title: 'Site Optimization',
+      title2: 'Enhance, Update, and Scale Your Website',
+      description: 'Improve performance, functionality, and user experience with targeted updates and optimizations.',
+      image: '/assets/images/graphics/default/admin-dashboard.png',
+      list: [
+        { primary: 'Site speed improvement' },
+        { primary: 'Design and functionality updates' },
+        { primary: 'New plugin integrations' },
+        { primary: 'SEO optimization' }
+      ],
+      actionBtn: { children: 'View Dashboard', href: ADMIN_PATH, ...linkProps },
+      actionBtn2: { children: 'Docs', href: DOCS_URL, ...linkProps }
+    },
+    {
+      icon: 'tabler-question-mark',
+      title: 'Your task',
+      title2: 'Enhance, Update, and Scale Your Website',
+      description: 'Improve performance, functionality, and user experience with targeted updates and optimizations.',
+      image: '/assets/images/graphics/default/admin-dashboard.png',
+      list: [
+        { primary: 'Site speed improvement' },
+        { primary: 'Design and functionality updates' },
+        { primary: 'New plugin integrations' },
+        { primary: 'SEO optimization' }
       ],
       actionBtn: { children: 'View Dashboard', href: ADMIN_PATH, ...linkProps },
       actionBtn2: { children: 'Docs', href: DOCS_URL, ...linkProps }

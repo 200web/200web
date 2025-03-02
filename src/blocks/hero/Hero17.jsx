@@ -97,7 +97,7 @@ export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoS
           zIndex: -1,
           borderBottomLeftRadius: boxRadius,
           borderBottomRightRadius: boxRadius,
-          background: getBackgroundDots(theme.palette.grey[300], 60, 35),
+          // background: getBackgroundDots(theme.palette.grey[300], 60, 35),
           bgcolor: 'grey.100'
         }}
       ></Box>

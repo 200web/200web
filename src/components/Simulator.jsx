@@ -177,7 +177,7 @@ export default function Simulator({ src, defaultHeight }) {
         borderColor: 'grey.300',
         borderRadius: boxRadius,
         ...(screenSize != 'desktop' && {
-          background: getBackgroundDots(theme.palette.grey[400], 60, 20),
+          // background: getBackgroundDots(theme.palette.grey[400], 60, 20),
           bgcolor: alpha(theme.palette.grey[50], 0.5)
         })
       }}

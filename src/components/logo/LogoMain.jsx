@@ -12,13 +12,13 @@ import branding from '@/branding.json';
 
 export default function LogoMain() {
   const theme = useTheme();
-  const logoMainPath = "/assets/images/logo0.svg";
+  const logoMainPath = "/assets/images/Logo_1.svg";
 
 
   return logoMainPath ? (
-    <CardMedia src={logoMainPath} component="img" alt="logo" sx={{ width: { xs: 112, lg: 90 } }} loading="lazy" />
+    <CardMedia src={logoMainPath} component="img" alt="logo" sx={{ width: { xs: 51, lg: 40 } }} loading="lazy" />
   ) : (
-    <Box sx={{ width: { xs: 112, lg: 140 }, height: { xs: 22, lg: 26 } }}>
+    <Box sx={{ width: { xs: 56, lg: 70 }, height: { xs: 11, lg: 13 } }}>
       <svg viewBox="0 0 140 27" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           fillRule="evenodd"

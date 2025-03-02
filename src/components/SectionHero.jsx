@@ -88,7 +88,7 @@ export default function SectionHero({ heading, search = true, offer = false, bre
       sx={{
         overflow: 'hidden',
         py: { xs: 3, sm: 5, md: 8 },
-        background: getBackgroundDots(theme.palette.grey[300], 60, 30),
+        // background: getBackgroundDots(theme.palette.grey[300], 60, 30),
         bgcolor: 'grey.100',
         borderBottomLeftRadius: boxRadius,
         borderBottomRightRadius: boxRadius
