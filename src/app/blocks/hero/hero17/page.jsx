@@ -32,8 +32,8 @@ const data = {
   headLine: 'Real-time Performance Monitoring',
   captionLine: 'Identify and resolve issues proactively for uninterrupted operations.',
   primaryBtn: { children: 'Try Predictive Cost Analytics' },
-  videoSrc: 'https://d2elhhoq00m1pj.cloudfront.net/saasable-intro.mp4',
-  videoThumbnail: '/assets/videos/thumbnails/intro-thumbnail.png',
+  videoSrc: 'https://www.dropbox.com/scl/fi/4vlqvudkqitp0vwp99cpu/200web.mp4?rlkey=d946bpi03g8xkell88b76u4ij&st=5hn986j6&dl=0',
+  videoThumbnail: '/assets/videos/thumbnails/200webVideo.PNG',
   listData: [
     { image: '/assets/images/shared/react.svg', title: 'React 18' },
     { image: '/assets/images/shared/next-js.svg', title: 'Next.js' },

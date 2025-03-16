@@ -2,7 +2,7 @@
 import CardMedia from '@mui/material/CardMedia';
 import Chip from '@mui/material/Chip';
 import Typography from '@mui/material/Typography';
-import { SECTION_PATH } from '@/path';
+import { CONTACT_PATH, SECTION_PATH } from '@/path';
 
 export const hero = {
   chip: {
@@ -35,8 +35,8 @@ export const hero = {
   },
   headLine: 'Web Development Studio',
   captionLine: 'Design marketing pages and effectively develop scalable websites for high-impact promotion',
-  primaryBtn: { children: 'Connect', href: SECTION_PATH },
-  videoSrc: 'https://d2elhhoq00m1pj.cloudfront.net/saasable-intro.mp4',
+  primaryBtn: { children: 'Contact', href: CONTACT_PATH },
+  videoSrc: 'https://www.dropbox.com/scl/fi/4vlqvudkqitp0vwp99cpu/200web.mp4?rlkey=d946bpi03g8xkell88b76u4ij&st=5hn986j6&dl=0',
   videoThumbnail: '/assets/videos/thumbnails/intro-thumbnail.png',
   listData: [
     { image: '/assets/images/shared/react.svg', title: 'React.js' },

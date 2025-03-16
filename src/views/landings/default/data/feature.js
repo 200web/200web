@@ -1,7 +1,7 @@
 // @project
 import branding from '@/branding.json';
 import { IconType } from '@/enum';
-import { SECTION_PATH, BUY_NOW_URL, ADMIN_PATH, DOCS_URL } from '@/path';
+import { SECTION_PATH, BUY_NOW_URL, ADMIN_PATH, DOCS_URL, CONTACT_PATH } from '@/path';
 
 const linkProps = { target: '_blank', rel: 'noopener noreferrer' };
 
@@ -163,7 +163,7 @@ export const feature10 = {
 export const feature20 = {
   heading: 'Smart Web Solutions for Business Growth',
   caption: 'Ready to launch a website that drives results?',
-  actionBtn: { children: 'Connect', href: BUY_NOW_URL, ...linkProps },
+  actionBtn: { children: 'Contact', href: CONTACT_PATH },
   secondaryBtn: { children: 'Fill out a brief', href: SECTION_PATH },
   features: [
     {
